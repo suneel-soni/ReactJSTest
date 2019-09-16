@@ -7,7 +7,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.search-container {
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  text-align: center
+}
+.search-container .btn {
+  margin-top: 20px;
+}
+.table-container {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.loader-container {
+  text-align: center;
+  margin: 30px;
+}
+.loader-container img {
+  display: block;
+  width: 200px;
+  margin: 0 auto
 }
